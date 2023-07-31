@@ -1,5 +1,5 @@
 body {
-    background: #ddebf8;
+    background: #ddecfa;
     margin: 2rem auto;
   }
 profile-name{
@@ -15,7 +15,7 @@ h1{
     text-decoration-style: solid ;  
     text-decoration: underline rgb(83, 83, 209);  
 }
-ol{
+.redirects{
     margin: 25px;
     font-size: 20pt;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -26,18 +26,13 @@ ol{
     font-family:'Times New Roman', Times, serif
 
 }
-
-ol {
-	padding-left: 0;
-}
-
 .crumb {
 	margin-right: 2em;
 	display: inline;
 }
 
 a {
-	color: rgb(27, 119, 47);
+	color: rgb(25, 114, 44);
 }
 
 a:visited {
@@ -47,9 +42,55 @@ a:visited {
     margin: 25px;
     display: flex;
     flex-direction: row;
+    color: rgb(83, 83, 209);
+}
+#intro-img{
+    margin-right: 15px;
+    box-shadow: 2px 2px 3px rgb(32, 69, 83);
+    max-width: 250px;
+}
+#intro-text{
+    font-size: 20pt;
 }
 h2{
     text-decoration: double;
     font-size: 15pt;
-    
+}
+#skills-list{
+    display: flex;
+    flex-direction: column;
+}
+.lists{
+    font-size: 20pt;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0px 15px 0px 15px;
+}
+#goals{
+    display: flex;
+    align-items: center;
+}
+.fave-Btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.color-Btn{
+    font-size: 25px;
+    background-color: yellow;
+    color:blueviolet;
+    border-radius: 8px;
+}
+.place-Btn{
+    font-size: 25px;
+    background-color: yellow;
+    color:blueviolet;
+    border-radius: 8px;
+}
+.ritual-Btn{
+    font-size: 25px;
+    background-color: yellow;
+    color:blueviolet;
+    border-radius: 8px;
 }
